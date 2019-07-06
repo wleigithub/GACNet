@@ -37,30 +37,23 @@ Here, we also calculate the geometric features in advance as it is slow to put t
 *[PCL](http://www.pointclouds.org/) is needed for neighbor points searching here. For a prepared dataset for S3DIS, you can download it from [here](https://drive.google.com/drive/folders/1CGY6zY0QvUG4r-DtK4axL972mhImN2bY?usp=sharing).  
 
 
-After preparing the dataset, you can run    
+After preparing the dataset, you can run   
 
     cd net_S3DIS
     python run.py 
     python run_test.py  
-    
 for training and testing on S3DIS. Other/Customized dataset can be done in a similar way.
 
 
 Citation
 -----
-If you find our work useful in your research, please consider citing:    
+If you find our work useful in your research, please consider citing:  
 
-@InProceedings{Wang2019_GACNet,  
-
-author = {Wang, Lei and Huang, Yuchun and Hou, Yaolin and Zhang, Shenman and Shan, Jie},  
-
-title = {Graph Attention Convolution for Point Cloud Semantic Segmentation},  
-
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
-
-month = {June},  
-
-year = {2019}  
-
-}  
+    @InProceedings{Wang2019_GACNet,  
+    author = {Wang, Lei and Huang, Yuchun and Hou, Yaolin and Zhang, Shenman and Shan, Jie},  
+    title = {Graph Attention Convolution for Point Cloud Semantic Segmentation},  
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
+    month = {June},  
+    year = {2019}  
+    }  
 
