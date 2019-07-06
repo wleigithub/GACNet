@@ -1,0 +1,7 @@
+This folder includes code for label interpolation.
+Since we only predict the label of part of the points sampled from the orginal point cloud, 
+we have to calculate the label of the orignal point cloud with interpolation algorithm.
+Similar as we do for feature interpolation in the network, we also interpolate the label of each point (of the orignal point cloud) according to its three nearest neighbors
+
+To compile these codes, run 
+    sh cmake.sh

@@ -1,0 +1,11 @@
+First, compile the c++ and cuda code for data preprocess using commands
+    cd eig_compution_op 
+    sh cmake.sh
+    cd ..
+* You may need [PCL](http://www.pointclouds.org/) to compile.
+
+
+Then, modify the data path and prepare the training and testing data on S3DIS with commands
+    cd prep_stanford
+    python gen_indoor3d_h5.py
+    python prep_scene.py
