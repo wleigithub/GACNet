@@ -23,7 +23,7 @@ Modify the path of your compiler and run
     cd tf_ops
     sh tf_compile.sh
         
-*Update nvcc and python path if necessary. The code is tested under TF1.12. If you are using earlier version it's possible that you need to remove the -D_GLIBCXX_USE_CXX11_ABI=0 flag in g++ command in order to compile correctly. 
+*Update nvcc and python path if necessary. 
 
 
 How to use 
