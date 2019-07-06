@@ -1,6 +1,4 @@
-# GACNet
-Graph Attention Convolution for Point Cloud Semantic Segmentation
-=======
+# Graph Attention Convolution for Point Cloud Semantic Segmentation
 
 This is a Tensorflow implementation of [GACNet](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Graph_Attention_Convolution_for_Point_Cloud_Semantic_Segmentation_CVPR_2019_paper.html) for semantic segmentation on [S3DIS dataset](https://shapenet.cs.stanford.edu/media/indoor3d_sem_seg_hdf5_data.zip).
 
