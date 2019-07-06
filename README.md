@@ -48,10 +48,10 @@ Citation
 If you find our work useful in your research, please consider citing:  
 
     @InProceedings{Wang2019_GACNet,  
-    author = {Wang, Lei and Huang, Yuchun and Hou, Yaolin and Zhang, Shenman and Shan, Jie},  
-    title = {Graph Attention Convolution for Point Cloud Semantic Segmentation},  
-    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
-    month = {June},  
-    year = {2019}  
+        author = {Wang, Lei and Huang, Yuchun and Hou, Yaolin and Zhang, Shenman and Shan, Jie},  
+        title = {Graph Attention Convolution for Point Cloud Semantic Segmentation},  
+        booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
+        month = {June},  
+        year = {2019}  
     }  
 
